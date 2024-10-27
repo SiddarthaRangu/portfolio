@@ -36,10 +36,10 @@ const projects = [
 ]
 
 const skills = [
-  { name: 'Python', level: 80, icon: FileCode },
+  { name: 'Python', level: 75, icon: FileCode },
   { name: 'JavaScript', level: 85, icon: FileJson },
-  { name: 'React', level: 60, icon: Code },
-  { name: 'Node.js', level: 75, icon: Server },
+  { name: 'React', level: 65, icon: Code },
+  { name: 'Node.js', level: 80, icon: Server },
   { name: 'HTML/CSS', level: 90, icon: Globe },
   { name: 'SQL', level: 80, icon: Database },
   { name: 'MongoDB', level: 50, icon: Database },
