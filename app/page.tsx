@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useCallback } from 'react'
+import React, { useState, useEffect } from 'react'
 import { motion, useScroll, useTransform } from 'framer-motion'
 import { Github, Linkedin, Mail, ExternalLink, Moon, Sun, User, Code, Briefcase, Phone, Home, FileCode, FileJson, Database, Globe, Server } from 'lucide-react'
 
@@ -138,7 +138,7 @@ export default function Portfolio() {
           transition={{ duration: 0.5 }}
           className="text-5xl md:text-7xl font-bold mb-4 text-center relative z-10"
         >
-          Hi, I'm Siddartha.
+          Hi, I&apos;m Siddartha.
           <br />
           <span className="text-[#08FDD8]">Full-Stack Developer.</span>
         </motion.h1>
@@ -192,10 +192,10 @@ export default function Portfolio() {
         >
           <h2 className="text-4xl font-bold mb-6 text-[#F72585]">About Me</h2>
           <p className="text-lg mb-6 leading-relaxed">
-            I'm a passionate full-stack developer with a keen interest in building innovative web solutions. My journey in tech started with a curiosity for how things work on the internet, and it has evolved into a career where I create robust and user-friendly applications.
+            I&apos;m a passionate full-stack developer with a keen interest in building innovative web solutions. My journey in tech started with a curiosity for how things work on the internet, and it has evolved into a career where I create robust and user-friendly applications.
           </p>
           <p className="text-lg leading-relaxed">
-            When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good book on software architecture.
+            When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source projects, or enjoying a good book on software architecture.
           </p>
           <div className="mt-6 grid grid-cols-2 gap-4">
             <div className="flex items-center gap-2">
